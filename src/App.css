@@ -9,3 +9,29 @@
 .bold {
   font-weight: bold;
 }
+
+.App button {
+  background-color: #ffa945;
+  color: white;
+  border: 0px;
+  border-bottom: 5px solid #d2872f;
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  font: inherit;
+}
+
+.App button:hover{
+  /* color: black; */
+  cursor: pointer;
+  background-color: #eda959;
+}
+
+.App button.Purple{
+  background-color: #523e6e;
+  border-bottom: 8px solid #30273c;
+}
+
+.App button.Purple:hover{
+  background-color: #5b417f;
+}
